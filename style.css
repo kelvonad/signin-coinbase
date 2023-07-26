@@ -1,0 +1,143 @@
+Body {
+    Margin: 0;
+    Padding: 0;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+  
+  
+    Font-family: Arial, sans-serif;
+  }
+  
+  .login-container{
+    Max-width: 400px;
+    Padding: 20px;
+    Background-color: #ffffff;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    Border-radius: 8px;
+  }
+  
+  .login-title {
+    Text-align: center1;
+   Font-size: 25px;
+   Margin-top: 5px;
+  
+  }
+  
+  #loginform {
+    Display: flex;
+    Flex-direction: column;
+  }
+  
+  .form-row {
+    Display: flex;
+    Align-items: center;
+    Margin-bottom: 10px;
+  }
+  
+  .form-row label {
+    Margin-right: 10px;
+  }
+  
+  #loginform input button {
+  
+    Padding: 10px;
+    Border: 1px solid #ccc;
+    Border-radius: 4px;
+    Outline: none;
+  }
+  
+  #loginform button {
+    Padding: 19px;
+    Background-color:#1652f0;
+    Color: #fff;
+    Border: none;
+    Border-radius: 6px;
+    Cursor: pointer;
+    Max-width: 310px;
+    Margin-left: 15px;
+  
+  }
+  
+  #loginform button:hover {
+    Background-color: #0056b3;
+  }
+  
+  .forgot-privacy {
+    Display: flex;
+    Justify-content: space-between;
+    /*Margin-top: 10px;*/
+  }
+  
+  .forgot-privacy a {
+    Color: #007bff;
+    Text-decoration: none;
+  }
+  
+  .forgot-privacy a:hover {
+    Text-decoration: underline;
+  }
+  .login-title hi{
+      Font-size: 10px;
+  }
+  #loginform input{
+  
+  
+  Padding: 20px;
+    Margin-bottom: 10px;
+    Border:  1px solid;
+    Border-radius: 3px;
+    Outline: none;
+    Border-color: rgb(173, 167, 167);
+    Margin-left: 10px;
+    Margin-top: 5px;
+    Max-width: 315px;
+  
+  
+    }
+    #email{
+        Width: 280px;
+        Height: 5px;
+    }
+    #email1{
+      Width: 280px;
+      Height: 5px;
+    }
+    .in {
+        Margin-left: 10px;
+    }
+  .forgot-privacy{
+      Margin-left: 10px;
+      Font-size:15px;
+      Color: blue;
+      Font-weight: bold;
+  }
+  #sign{
+      Font-size: 18px;
+      Font-weight: bold;
+      Color: white;
+  }
+  #email::placeholder {
+    Opacity: 0.5; /* Adjust the opacity value as needed (0.0 to 1.0) */
+    Font-size: 18px;
+  }
+  
+  #email1::placeholder {
+    Opacity: 0.5; /* Adjust the opacity value as needed (0.0 to 1.0) */
+    Font-size: 18px;
+  }
+  .alert{
+    width: 280px;
+    background: rgb(243, 21, 21);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 10px;
+    display: none;
+  }
+  
+  
